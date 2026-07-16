@@ -11,6 +11,10 @@ manifest:
 
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+      
+    - name: cormoran
+      url-base: https://github.com/cormoran
+      
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,6 +31,10 @@ manifest:
       revision: main
     - name: hammerbeam-slideshow
       remote: gpeye
+      revision: main
+
+    - name: zmk-module-battery-history
+      remote: cormoran
       revision: main
   self:
     path: config
